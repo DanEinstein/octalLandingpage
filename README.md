@@ -1,16 +1,38 @@
-# React + Vite
+# Octal Foundry 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Bridging the gap between university theory and career-ready skills.**
 
-Currently, two official plugins are available:
+Octal Foundry is a student-built platform designed to transform university education in Kenya and Africa. We take the theoretical knowledge students gain in university and complement it with structured, AI-powered learning roadmaps that build practical, job-ready skills.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Built by students, for students. 🇰🇪
 
-## React Compiler
+## 🌟 Mission
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**To make every Kenyan student career-ready by graduation—no bootcamp, no debt, no wasted holidays.**
 
-## Expanding the ESLint configuration
+We believe university education provides a strong foundation, but there is a disconnect with industry needs. Octal Foundry bridges this gap by providing:
+- **Curated Learning Paths:** Structured roadmaps aligned with real-world careers.
+- **Practical Projects:** Learning by doing, not just watching tutorials.
+- **Community Support:** A network of peers, mentors, and developers.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- **AI-Powered Roadmaps:** Turn your university syllabus into a practical skill tree.
+- **Dual Audience Focus:**
+  - **For Students:** Free, high-quality learning resources and career guidance.
+  - **For Companies:** Access to a pool of disciplined, skilled graduates.
+- **Community Driven:** Built open-source by a community of passionate student developers.
+- **Zero Cost:** Always free for students.
+
+## 🤝 Connect With Us
+
+We are building a movement to change education. Join us!
+
+- **Email:** [githukadanson23@gmail.com](mailto:githukadanson23@gmail.com)
+- **LinkedIn:** [Danson Githuka](https://www.linkedin.com/in/dansongithuka)
+- **Community:** Join our WhatsApp group to connect with other students.
+[octal foundry]
+(https://chat.whatsapp.com/K1ZSSK7MIHm5ZYlenFBNAC?mode=gi_t)
+
+---
+*Built with ❤️ in Maseno, Kenya.*
