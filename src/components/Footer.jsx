@@ -55,16 +55,16 @@ export default function Footer() {
                     <div className="footer-section">
                         <h4>Connect</h4>
                         <ul>
-                            <li><a href="mailto:info@octalfoundry.com">info@octalfoundry.com</a></li>
-                            <li><a href="#">Twitter</a></li>
-                            <li><a href="#">LinkedIn</a></li>
-                            <li><a href="#">GitHub</a></li>
+                            <li><a href={`tel:${import.meta.env.VITE_PHONE || ''}`}>{import.meta.env.VITE_PHONE || 'Phone'}</a></li>
+                            <li><a href={`mailto:${import.meta.env.VITE_EMAIL || ''}`}>{import.meta.env.VITE_EMAIL || 'Email'}</a></li>
+                            <li><a href={import.meta.env.VITE_WHATSAPP_LINK || ''} target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
+                            <li><a href={import.meta.env.VITE_LINKEDIN_LINK || ''} target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
                         </ul>
                     </div>
                 </div>
 
                 <div className="footer-bottom">
-                    <p>&copy; 2026 Octal Foundry. Made with ❤️ in Nairobi, Kenya.</p>
+                    <p>&copy; 2026 Octal Foundry. Made with ❤️ in Maseno, Kenya.</p>
                 </div>
             </div>
         </footer>
