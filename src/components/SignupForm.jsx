@@ -97,17 +97,20 @@ export default function SignupForm() {
 
                             <div className="form-group">
                                 <label>Full Name</label>
-                                <input type="text" name="name" required value={formData.name} onChange={handleChange} />
+                                <input type="text" name="name" placeholder="e.g., Joseph Omondi" required value={formData.name} onChange={handleChange} />
                             </div>
 
                             <div className="form-group">
                                 <label>Email Address</label>
-                                <input type="email" name="email" required value={formData.email} onChange={handleChange} />
+                                <input type="email" name="email" placeholder="e.g., joseph.omondi@example.com" required value={formData.email} onChange={handleChange} />
                             </div>
 
                             <div className="form-group">
                                 <label>Phone Number (Optional)</label>
-                                <input type="tel" name="phone" value={formData.phone} onChange={handleChange} />
+                                <input type="tel"
+                                    name="phone"
+                                    placeholder="fill in the format, 0712345678"
+                                    value={formData.phone} onChange={handleChange} />
                             </div>
 
                             <div className="form-group">
