@@ -15,7 +15,7 @@ const companyFeatures = [
     '✅ Reduce hiring & training costs',
     '✅ Portfolio-verified candidates',
     '✅ Direct connection to universities',
-    '✅ Shape curriculum relevance',
+    '✅ Affordable talent access — small token fee',
 ];
 
 export default function DualAudienceSection() {
@@ -62,7 +62,7 @@ export default function DualAudienceSection() {
                             <h3>For Companies</h3>
                         </div>
                         <p className="audience-tagline">
-                            Hire students and graduates who are actually job-ready
+                            Affordable access to job-ready students and graduates
                         </p>
                         <ul className="audience-features">
                             {companyFeatures.map((feature) => (

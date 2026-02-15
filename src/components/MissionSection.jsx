@@ -22,7 +22,7 @@ const values = [
     {
         icon: '🌍',
         title: 'Accessibility',
-        text: 'Free for students. Always. Education should be a right, not a privilege reserved for those who can afford bootcamps.',
+        text: 'Completely free for students—always. Companies pay a small token to access and recruit top talent from our platform, keeping education accessible while creating real career opportunities.',
     },
     {
         icon: '🚀',

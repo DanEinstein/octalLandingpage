@@ -8,13 +8,13 @@ const timelineItems = [
     {
         marker: '02',
         title: 'Phase 2: Internship Matching',
-        text: 'Partner with Kenyan tech companies and startups. Match tech students with internships based on their portfolio, skills, and career goals. Direct pipeline from learning to real-world experience.',
+        text: 'Partner with Kenyan tech companies and startups. Companies pay a small token to access our talent pipeline and match with interns based on portfolio, skills, and career goals. Students access this for free.',
         tags: ['Company Partnerships', 'Internship Board', 'Skills Verification', 'Placement Support'],
     },
     {
         marker: '03',
         title: 'Phase 3: Job Placement',
-        text: 'Tech students graduate job-ready with verified skills and real experience. Direct hiring partnerships with companies across Kenya and East Africa. No 6-month job search—immediate opportunities.',
+        text: 'Tech students graduate job-ready with verified skills and real experience. Companies pay an affordable fee to connect with verified graduates across Kenya and East Africa. No 6-month job search—immediate opportunities for students.',
         tags: ['Job Board', 'Employer Network', 'Interview Prep', 'Career Coaching'],
     },
     {

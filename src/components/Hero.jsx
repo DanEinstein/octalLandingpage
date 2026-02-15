@@ -2,7 +2,7 @@ import { scrollToElement } from '../utils';
 
 const stats = [
     { number: '80K+', label: 'Tech Students in Kenya' },
-    { number: 'KSH0', label: 'Bootcamp Cost' },
+    { number: 'KSH 0', label: 'Cost for Students' },
     { number: '12', label: 'Week Roadmaps' },
     { number: '100%', label: 'Free for Students' },
 ];

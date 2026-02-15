@@ -36,7 +36,7 @@ export default function AboutSection() {
                             <p>
                                 <strong>So I decided to build what I wished existed:</strong> a platform that
                                 complements your university education by taking your actual courses and turning
-                                them into structured, practical learning roadmaps. The platform is free, AI-powered, and aligned
+                                them into structured, practical learning roadmaps. The platform is completely free for students, AI-powered, and aligned
                                 with real career goals.
                             </p>
                         </div>
@@ -63,7 +63,7 @@ export default function AboutSection() {
                             </div>
                             <div className="impact-stat-card">
                                 <div className="impact-stat-number">KSH 0</div>
-                                <div className="impact-stat-label">What Octal Foundry costs (always free)</div>
+                                <div className="impact-stat-label">What students pay (always free)</div>
                             </div>
                         </div>
                     </div>
@@ -91,7 +91,7 @@ export default function AboutSection() {
                         <div className="mv-icon">💡</div>
                         <h3>Values</h3>
                         <ul className="mv-values-list">
-                            <li><strong>Free Forever:</strong> Education shouldn&apos;t gatekeep</li>
+                            <li><strong>Free for Students:</strong> Companies pay a small token to recruit talent, keeping it free for learners</li>
                             <li><strong>Africa-First:</strong> Built by students, for students</li>
                             <li><strong>Real Impact:</strong> Measured by jobs, not signups</li>
                         </ul>
