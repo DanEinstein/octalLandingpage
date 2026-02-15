@@ -10,6 +10,8 @@ export default function SignupForm() {
         email: '',
         phone: '',
         university: '',
+        github: '',
+        linkedin: '',
         message: '',
         newsletter: false,
     });
@@ -49,6 +51,8 @@ export default function SignupForm() {
                 email: '',
                 phone: '',
                 university: '',
+                github: '',
+                linkedin: '',
                 message: '',
                 newsletter: false,
             });
@@ -123,6 +127,32 @@ export default function SignupForm() {
                                     onChange={handleChange}
                                 />
                             </div>
+
+                            {formData.user_type === 'developer' && (
+                                <>
+                                    <div className="form-group">
+                                        <label>GitHub Username</label>
+                                        <input
+                                            type="text"
+                                            name="github"
+                                            placeholder="e.g., johndoe"
+                                            value={formData.github}
+                                            onChange={handleChange}
+                                        />
+                                    </div>
+
+                                    <div className="form-group">
+                                        <label>LinkedIn Profile URL</label>
+                                        <input
+                                            type="url"
+                                            name="linkedin"
+                                            placeholder="e.g., https://linkedin.com/in/johndoe"
+                                            value={formData.linkedin}
+                                            onChange={handleChange}
+                                        />
+                                    </div>
+                                </>
+                            )}
 
                             <div className="form-group">
                                 <label>Tell us more (Optional)</label>
