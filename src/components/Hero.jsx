@@ -1,10 +1,10 @@
 import { scrollToElement } from "../utils";
 
 const stats = [
-  { number: "80K+", label: "Tech Students in Kenya" },
-  { number: "KSH 0", label: "Cost for Students" },
-  { number: "12", label: "Week Roadmaps" },
-  { number: "100%", label: "Free for Students" },
+  { number: "3", label: "Weeks of Research" },
+  { number: "50+", label: "Survey Responses" },
+  { number: "67%", label: "White Space in Student Schedules" },
+  { number: "42", label: "African Projects Identified" },
 ];
 
 export default function Hero() {
@@ -18,43 +18,35 @@ export default function Hero() {
       <div className="container">
         <div className="hero-content">
           <div className="hero-label">
-            🚀 Supercharging University Education in Kenya
+            Research-Backed. Student-Built. Free.
           </div>
           <h1>
-            Graduate <span className="highlight">Job-Ready</span>
-            <br />
-            No Bootcamp Needed,
+            Learn Skills That <span className="highlight">Match Your Degree</span>
           </h1>
           <p>
-            AI-powered learning roadmaps that transform university theory into
-            career-ready skills—for technology students across Kenya and beyond.
+            Octal Foundry turns your university timetable into a personalised learning
+            plan that fits in the gaps between your classes. No bootcamps. No extra time.
+            Just practical skills alongside your degree.
           </p>
           <p className="subtitle">
-            Upload your course units. Get personalized projects, curated videos,
-            and skills tracking. Built for tech students, expanding to all
-            majors.
+            We have spent 3 weeks researching how African university students learn,
+            surveyed 50+ students, and analysed curricula across 4 Kenyan universities.
+            Now we are building.
           </p>
           <div className="cta-group">
             <a
-              href="#signup"
+              href="#cta"
               className="btn btn-primary"
-              onClick={(e) => handleClick(e, "signup")}
+              onClick={(e) => handleClick(e, "cta")}
             >
-              Start Free - Tech Students
+              Join the Waitlist
             </a>
             <a
-              href="#join-dev"
+              href="#research"
               className="btn btn-secondary"
-              onClick={(e) => handleClick(e, "join-dev")}
+              onClick={(e) => handleClick(e, "research")}
             >
-              Join as Developer
-            </a>
-            <a
-              href="#signup"
-              className="btn btn-secondary"
-              onCLick={(e) => handleClick(e, "signup")}
-            >
-              Join Waitlist - Non Tech Students
+              See Our Research
             </a>
           </div>
 

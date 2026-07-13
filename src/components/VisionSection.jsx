@@ -49,7 +49,7 @@ const timelineItems = [
   {
     marker: "05",
     title: "Phase 5: Partner Pairing",
-    text: "We understand that learning from a partner brings easier understanding and is fun. In the future we will be having students in the same discipline brough together for collabortion as well as project building. ",
+    text: "We understand that learning from a partner brings easier understanding and is fun. In the future we will be having students in the same discipline brought together for collabortion as well as project building. ",
     tags: [],
   },
 ];

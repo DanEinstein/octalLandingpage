@@ -1,10 +1,7 @@
 const problems = [
-    { icon: '💸', title: 'Expensive Bootcamps', text: 'After 4 years of university, students spend KSH 100K+ on bootcamps to learn what they should have learned during their degree.' },
-    { icon: '📚', title: 'Theory vs Practice Gap', text: 'University syllabi focus on theory. Students graduate without portfolios, GitHub profiles, or real-world project experience.' },
-    { icon: '⏰', title: 'Wasted Time', text: '6-12 months post-graduation searching for jobs because students lack the practical skills employers actually want.' },
-    { icon: '🎯', title: 'No Clear Path', text: "Overwhelmed by scattered YouTube tutorials, online courses, and conflicting advice. No structured roadmap aligned with their degree." },
-    { icon: '🔍', title: 'Skills Mismatch', text: 'Employers want React, Docker, AWS. Universities teach outdated tech or focus purely on fundamentals without application.' },
-    { icon: '🚫', title: 'Limited Opportunities', text: 'No internship connections, no industry mentorship, no clear bridge from academic life to professional careers.' },
+  { icon: '🎓', title: 'Theory Heavy, Practice Light', text: 'University syllabi give you strong theory but leave you on your own to build practical skills. Graduates have degrees but no portfolios or real project experience.' },
+  { icon: '⏰', title: 'No Time for Extra Learning', text: 'Between lectures, assignments, and personal time, students think they have no room to learn coding or data skills. But our research shows 67% of your day is free time between classes.' },
+  { icon: '💰', title: 'Bootcamps Cost KSH 100K+', text: 'The only alternative is expensive bootcamps that cost more than a semester of tuition. And they only run during holidays when you should be resting or gaining work experience.' },
 ];
 
 export default function ProblemSection() {
@@ -17,7 +14,7 @@ export default function ProblemSection() {
                     Careers demand practice.
                 </h2>
 
-                <div className="problem-grid">
+                <div className="problem-grid three-col">
                     {problems.map((problem) => (
                         <div className="problem-card" key={problem.title}>
                             <div className="problem-icon">{problem.icon}</div>

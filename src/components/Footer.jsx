@@ -1,70 +1,42 @@
-import { scrollToElement } from '../utils';
-
-const productLinks = [
-    { href: 'solution', label: 'How It Works' },
-    { href: 'vision', label: 'Our Vision' },
-    { href: 'signup', label: 'Get Started' },
-];
-
-const companyLinks = [
-    { href: 'problem', label: 'About Us' },
-    { href: 'join-dev', label: 'Join the Team' },
-    { href: 'signup', label: 'Partner With Us' },
-];
+import logo from '../assets/octalFoundrylogo.jpg';
 
 export default function Footer() {
-    const handleClick = (e, targetId) => {
-        e.preventDefault();
-        scrollToElement(targetId);
-    };
-
     return (
-        <footer>
+        <footer className="footer">
             <div className="container">
                 <div className="footer-content">
-                    <div className="footer-section">
-                        <h4>Octal Foundry</h4>
-                        <p style={{ opacity: 0.7, lineHeight: 1.6 }}>
-                            Transforming university education into career-ready skills. Built in Kenya, for Africa and the
-                            world.
-                        </p>
+                    <div className="footer-brand">
+                        <img src={logo} alt="Octal Foundry" className="footer-logo" />
+                        <h3>Octal Foundry</h3>
+                        <p>Making African university students career-ready by graduation.</p>
                     </div>
 
-                    <div className="footer-section">
-                        <h4>Product</h4>
-                        <ul>
-                            {productLinks.map((link) => (
-                                <li key={link.label}>
-                                    <a href={`#${link.href}`} onClick={(e) => handleClick(e, link.href)}>{link.label}</a>
-                                </li>
-                            ))}
-                        </ul>
+                    <div className="footer-links">
+                        <h4>Quick Links</h4>
+                        <a href="#problem">The Problem</a>
+                        <a href="#research">Our Research</a>
+                        <a href="#how-it-works">How It Works</a>
+                        <a href="#building">Building Now</a>
+                        <a href="#cta">Get Early Access</a>
                     </div>
 
-                    <div className="footer-section">
-                        <h4>Company</h4>
-                        <ul>
-                            {companyLinks.map((link) => (
-                                <li key={link.label}>
-                                    <a href={`#${link.href}`} onClick={(e) => handleClick(e, link.href)}>{link.label}</a>
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
-
-                    <div className="footer-section">
+                    <div className="footer-links">
                         <h4>Connect</h4>
-                        <ul>
-                            <li><a href={`tel:${import.meta.env.VITE_PHONE || ''}`}>{import.meta.env.VITE_PHONE || 'Phone'}</a></li>
-                            <li><a href={`mailto:${import.meta.env.VITE_EMAIL || ''}`}>{import.meta.env.VITE_EMAIL || 'Email'}</a></li>
-                            <li><a href={import.meta.env.VITE_WHATSAPP_LINK || ''} target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
-                            <li><a href={import.meta.env.VITE_LINKEDIN_LINK || ''} target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-                        </ul>
+                        <a href="mailto:githukadanson23@gmail.com">Email Us</a>
+                        <a href="https://linkedin.com/in/dansongithuka" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                        <a href="https://github.com/DanEinstein" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        <a href="https://chat.whatsapp.com/K1ZSSK7MIHm5ZYlenFBNAC" target="_blank" rel="noopener noreferrer">WhatsApp Group</a>
+                    </div>
+
+                    <div className="footer-research">
+                        <h4>Research</h4>
+                        <p>3 weeks of structured research across 4 Kenyan universities. Survey of 50+ students. 42 African projects identified. Full privacy compliance mapped.</p>
                     </div>
                 </div>
 
                 <div className="footer-bottom">
-                    <p>&copy; 2026 Octal Foundry. Made with ❤️ in Maseno, Kenya.</p>
+                    <p>Built with ❤️ in Maseno, Kenya. Free for students. Always.</p>
+                    <p>&copy; 2026 Octal Foundry. Research paper under development.</p>
                 </div>
             </div>
         </footer>

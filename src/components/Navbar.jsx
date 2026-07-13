@@ -31,17 +31,17 @@ export default function Navbar() {
 
                 <ul className={`nav-links${menuOpen ? ' open' : ''}`}>
                     <li><a href="#problem" onClick={(e) => handleClick(e, 'problem')}>The Problem</a></li>
-                    <li><a href="#solution" onClick={(e) => handleClick(e, 'solution')}>How It Works</a></li>
-                    <li><a href="#vision" onClick={(e) => handleClick(e, 'vision')}>Vision</a></li>
-                    <li><a href="#join-dev" onClick={(e) => handleClick(e, 'join-dev')}>Join Us</a></li>
+                    <li><a href="#research" onClick={(e) => handleClick(e, 'research')}>Our Research</a></li>
+                    <li><a href="#how-it-works" onClick={(e) => handleClick(e, 'how-it-works')}>How It Works</a></li>
+                    <li><a href="#building" onClick={(e) => handleClick(e, 'building')}>Building Now</a></li>
                     <li>
                         <a
-                            href="#signup"
+                            href="#cta"
                             className="btn btn-primary"
                             style={{ padding: '0.5rem 1.5rem', fontSize: '0.9rem' }}
-                            onClick={(e) => handleClick(e, 'signup')}
+                            onClick={(e) => handleClick(e, 'cta')}
                         >
-                            Get Started
+                            Get Notified
                         </a>
                     </li>
                 </ul>
