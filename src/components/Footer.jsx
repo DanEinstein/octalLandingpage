@@ -8,7 +8,7 @@ export default function Footer() {
                     <div className="footer-brand">
                         <img src={logo} alt="Octal Foundry" className="footer-logo" />
                         <h3>Octal Foundry</h3>
-                        <p>Making African university students career-ready by graduation.</p>
+                        <p>Making African university students career-ready by graduation. Research complete. Development active. Launching before August 2026.</p>
                     </div>
 
                     <div className="footer-links">
@@ -28,15 +28,17 @@ export default function Footer() {
                         <a href="https://chat.whatsapp.com/K1ZSSK7MIHm5ZYlenFBNAC" target="_blank" rel="noopener noreferrer">WhatsApp Group</a>
                     </div>
 
-                    <div className="footer-research">
-                        <h4>Research</h4>
-                        <p>3 weeks of structured research across 4 Kenyan universities. Survey of 50+ students. 42 African projects identified. Full privacy compliance mapped.</p>
+                    <div className="footer-links">
+                        <h4>Support Us</h4>
+                        <a href="mailto:githukadanson23@gmail.com">Partner or Sponsor</a>
+                        <a href="https://chat.whatsapp.com/K1ZSSK7MIHm5ZYlenFBNAC" target="_blank" rel="noopener noreferrer">Join the Team</a>
+                        <a href="https://github.com/DanEinstein/octal-Foundry" target="_blank" rel="noopener noreferrer">Contribute on GitHub</a>
                     </div>
                 </div>
 
                 <div className="footer-bottom">
-                    <p>Built with ❤️ in Maseno, Kenya. Free for students. Always.</p>
-                    <p>&copy; 2026 Octal Foundry. Research paper under development.</p>
+                    <p>Built with love in Maseno, Kenya. Free for students. Always.</p>
+                    <p>&copy; 2026 Octal Foundry. 4 weeks of research. MVP launching before August.</p>
                 </div>
             </div>
         </footer>

@@ -1,7 +1,7 @@
 import { scrollToElement } from "../utils";
 
 const stats = [
-  { number: "3", label: "Weeks of Research" },
+  { number: "4", label: "Weeks of Research" },
   { number: "50+", label: "Survey Responses" },
   { number: "67%", label: "White Space in Student Schedules" },
   { number: "42", label: "African Projects Identified" },
@@ -29,9 +29,10 @@ export default function Hero() {
             Just practical skills alongside your degree.
           </p>
           <p className="subtitle">
-            We have spent 3 weeks researching how African university students learn,
-            surveyed 50+ students, and analysed curricula across 4 Kenyan universities.
-            Now we are building.
+            4 weeks of structured research across 4 Kenyan universities. 50+ students
+            surveyed. Full architecture designed. Development is underway with MVP launch
+            targeted before August 2026. We are building the platform in the open and
+            looking for contributors and partners to make it happen.
           </p>
           <div className="cta-group">
             <a
@@ -42,11 +43,18 @@ export default function Hero() {
               Join the Waitlist
             </a>
             <a
+              href="#building"
+              className="btn btn-secondary"
+              onClick={(e) => handleClick(e, "building")}
+            >
+              Contribute or Partner
+            </a>
+            <a
               href="#research"
               className="btn btn-secondary"
               onClick={(e) => handleClick(e, "research")}
             >
-              See Our Research
+              View Our Research
             </a>
           </div>
 
